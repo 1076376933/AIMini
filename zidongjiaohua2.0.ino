@@ -6,6 +6,7 @@
  使用单片机ESP8266-12F
  本代码基于Arduino开发，使用Blinker库，实现智能配网、数据总结、数据调试以及对设备的控制
  本产品需要外围电路，详情请移步本产品电路原理图以及pcb文档
+ 目前仅做学习使用，请勿商用，谢谢合作！！
 */
 #define BLINKER_WIFI                 //定义wifi模块
 #include <Blinker.h>                 //包含Blinker头文件
@@ -39,7 +40,7 @@ BlinkerText Tex2("wenben1");         //文本2
 BlinkerText Tex3("wenben2");         //文本3
 //****************网络信息******************************
 //请更改您设备的专属密钥
-char auth[] = "ec96dff0a896";    //设备密钥
+char auth[] = "xxxxxxx";    //设备密钥
 //****************网络配置Smartconfig*******************
 void smartConfig()//配网函数
 {
